@@ -40,7 +40,7 @@ then
 fi
 
 # check if git is installed
-hash git >/dev/null && /usr/bin/env git clone git://github.com/kaochenlong/eddie-vim.git ~/.vim || {
+hash git >/dev/null && /usr/bin/env git clone git://github.com/berockguo/go-vim.git ~/.vim || {
   echo "sorry, git is not installed in this machine."
   exit
 }
@@ -84,9 +84,9 @@ sh ./update.sh
 
 echo ""
 echo "\033[0;34mNice! Seems everything is done.\033[0m"
-echo "\033[0;34mGithub Repository: https://github.com/kaochenlong/eddie-vim\033[0m"
+echo "\033[0;34mGithub Repository: https://github.com/berockguo/go-vim\033[0m"
 echo "\033[0;34mfeel free to fork it :)\033[0m"
-echo "\033[0;34m<Eddie Kao> eddie@digik.com.tw\033[0m"
+echo "\033[0;34m<Eddie Kao> guofm28@qq.com\033[0m"
 echo ""
 
 exit
