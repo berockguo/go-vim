@@ -16,7 +16,7 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 
 It's how my Vim looks now:
 
-![image](https://github.com/kaochenlong/eddie-vim/raw/master/screenshots/vim-2012-03-27-macvim.png)
+![image](https://github.com/berockguo/go-vim/raw/master/screenshots/vim-2012-03-27-macvim.png)
 
 and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here</a> are some screenshots on the other platforms.
 
@@ -113,9 +113,3 @@ if you can not found `ctags` command, just find your ctags path and replace my s
     let Tlist_Ctags_Cmd = '/your/path/to/ctags'
 
 and [Exuberant Ctags](http://ctags.sourceforge.net/) is recommended.
-
-## Contact
-
-Enjoy it, and if there's any question or comment, feel free to let me know :)
-
-Eddie Kao (eddie@digik.com.tw)
