@@ -30,11 +30,11 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
 1. via `curl`:
 
-`sh <(curl -L https://github.com/kaochenlong/eddie-vim/raw/master/utils/install.sh)`
+`sh <(curl -L https://github.com/berockguo/go-vim/raw/master/utils/install.sh)`
 
 2. or via `wget`:
 
-`sh <(wget --no-check-certificate https://github.com/kaochenlong/eddie-vim/raw/master/utils/install.sh -O -)`
+`sh <(wget --no-check-certificate https://github.com/berockguo/go-vim/raw/master/utils/install.sh -O -)`
 
 #### Manual installation
 
@@ -44,7 +44,7 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
 3. copy files to your home directory:
 
-        git clone git://github.com/kaochenlong/eddie-vim.git
+        git clone git://github.com/berockguo/go-vim.git
 
 4. cd to `eddie-vim` directory and execute the `update.sh` to get latest version modules:
 
