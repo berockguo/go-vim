@@ -18,8 +18,6 @@ It's how my Vim looks now:
 
 ![image](https://github.com/berockguo/go-vim/raw/master/screenshots/vim-2012-03-27-macvim.png)
 
-and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here</a> are some screenshots on the other platforms.
-
 ## Usage
 
 ### Installation and Requisites:
@@ -46,14 +44,14 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
         git clone git://github.com/berockguo/go-vim.git
 
-4. cd to `eddie-vim` directory and execute the `update.sh` to get latest version modules:
+4. cd to `go-vim` directory and execute the `update.sh` to get latest version modules:
 
-        cd eddie-vim
+        cd go-vim
         ./update.sh
 
-5. make a symbolic link `.vim` to `eddie-vim` that you just cloned, or just rename it to `.vim` also be fine:
+5. make a symbolic link `.vim` to `go-vim` that you just cloned, or just rename it to `.vim` also be fine:
 
-        ln -s eddie-vim .vim
+        ln -s go-vim .vim
 
 6. link the vimrc to
 
@@ -65,7 +63,7 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
 8. if you use GUI version VIM, such as MacVim or GVim, you can also link to `.gvimrc`:
 
-        ln -s eddie-vim/gvimrc .gvimrc
+        ln -s go-vim/gvimrc .gvimrc
 
 9. if you use Powerline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/scotu/ubuntu-mono-powerline), it looks pretty nice.
 
